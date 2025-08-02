@@ -12,6 +12,7 @@ Un projet de transition, entre mes débuts en design et mes explorations plus mo
 
 ![Aperçu du site 2022](./Capture%20d'écran%202025-08-02%20103835.png)
 
+
 ---
 
 ## ⚙️ Stack technique
