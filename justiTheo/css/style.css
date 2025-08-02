@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: "MADE Soulmaze";
+  src: url("../fonts/MADESoulmaze-Italic.woff2") format("woff2"), url("../fonts/MADESoulmaze-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Soulmaze Outline";
+  src: url("../fonts/MADESoulmazeOutline-Italic.woff2") format("woff2"), url("../fonts/MADESoulmazeOutline-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Soulmaze Outline";
+  src: url("../fonts/MADESoulmazeOutline.woff2") format("woff2"), url("../fonts/MADESoulmazeOutline.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Soulmaze";
+  src: url("../fonts/MADESoulmaze.woff2") format("woff2"), url("../fonts/MADESoulmaze.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-secondary {
+  font-family: "MADE Soulmaze", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amaranth", sans-serif;
+}
+
+.font-territory {
+  font-family: "Abhaya Libre", serif;
+}
+
+.color1 {
+  color: #AFAFAF;
+}
+
+.color2 {
+  color: #454545;
+}
+
+header .btn img {
+  max-width: 40px;
+}
+
+.custom-btn {
+  background: #454545;
+  box-shadow: inset 0px 4px 7px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #fff;
+}
+.custom-btn:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.custom-outline {
+  border-radius: 10px;
+}
+.custom-outline:hover i svg path {
+  stroke: #fff;
+}
+
+.heading {
+  font: 40px "MADE Soulmaze", sans-serif;
+  color: #454545;
+}
+
+.shadow-custom {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.support-content {
+  padding-bottom: 10rem;
+}
+@media screen and (max-width: 600px) {
+  .support-content {
+    padding-bottom: 5rem;
+  }
+}
+.support-content .shape-1 {
+  bottom: 0;
+  right: -110px;
+}
+@media screen and (max-width: 600px) {
+  .support-content .shape-1 {
+    display: none;
+  }
+}
+.support-content .shape-4 {
+  bottom: 0;
+  left: -110px;
+}
+@media screen and (max-width: 600px) {
+  .support-content .shape-4 {
+    display: none;
+  }
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  padding: 12px 12px 50px;
+}
+.box .img-content {
+  background: #FFFFFF;
+  box-shadow: inset 0px 4px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  width: 238px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+@media screen and (max-width: 600px) {
+  .box .img-content {
+    width: 100%;
+  }
+}
+
+.services-list {
+  margin: 60px 0;
+  position: relative;
+}
+.services-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1200px) {
+  .services-list ul {
+    justify-content: center;
+  }
+}
+.services-list ul li {
+  flex: 0 0 21%;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .services-list ul li {
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .services-list ul li {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services-list ul li {
+    flex: 0 0 90%;
+  }
+}
+.services-list .shape-2 {
+  position: absolute;
+  bottom: 48px;
+  left: 3%;
+  z-index: 1;
+}
+@media screen and (max-width: 1366px) {
+  .services-list .shape-2 {
+    left: -50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .services-list .shape-2 {
+    display: none;
+  }
+}
+
+.portfolio-section {
+  position: relative;
+  padding-top: 6rem;
+}
+.portfolio-section .shape-3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.gallery-carousel, .gallery-carousel2 {
+  padding: 50px 0;
+}
+.gallery-carousel .owl-prev, .gallery-carousel .owl-next, .gallery-carousel2 .owl-prev, .gallery-carousel2 .owl-next {
+  right: 0;
+  left: auto;
+  top: auto;
+  bottom: -30px;
+  position: absolute;
+}
+.gallery-carousel .owl-prev, .gallery-carousel2 .owl-prev {
+  right: 50px;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  opacity: 1;
+  transition: opacity 0.35s;
+}
+
+.gallery-item::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #14222d;
+  background-image: url(http://randomsite.zzz.com.ua/cabel/img/s8_zoom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-item:hover img {
+  opacity: 0.2;
+  transition: opacity 0.35s;
+}
+
+.contact-icon {
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-hover li {
+  padding: 20px 0;
+  overflow: hidden;
+  height: 100px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+.list-hover li span {
+  visibility: hidden;
+}
+.list-hover li .show-hide-img {
+  transform: translateY(100px);
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.list-hover li:hover {
+  height: 400px;
+}
+.list-hover li:hover span {
+  visibility: visible;
+}
+.list-hover li:hover .show-hide-img {
+  display: block;
+  transform: translateY(-100px);
+  height: 400px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  display: grid;
+  place-items: center;
+}
+
+.sidenav a {
+  padding: 0px 8px 0 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-right 0.3s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.banner-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.banner-section .fs-1 {
+  font-size: calc(1.6rem + 2vw) !important;
+}
+
+.hover {
+  padding-bottom: 1rem;
+}
+.hover ~ li {
+  opacity: 0.6;
+}
