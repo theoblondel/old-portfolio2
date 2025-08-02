@@ -10,7 +10,8 @@ Un projet de transition, entre mes débuts en design et mes explorations plus mo
 
 ## 🖼️ Aperçu
 
-![Aperçu du site 2022](./Capture%20d'écran%202025-08-02%20103835.png)
+![Aperçu du site 2022 – plein écran](./screenshot-portfolio-2022-full.png)
+
 
 
 ---
